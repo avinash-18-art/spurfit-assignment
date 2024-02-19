@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import {gsap} from 'gsap'
 
 const Header = () => {
+  useEffect(() => {
+    gsap.from('.header', {opacity: 0, duration: 1, y: -50, ease: 'power4.out'})
+  }, [])
+
   return (
-    <header className="bg-gray-800 text-white py-4">
+    <header className="header bg-gray-800 text-white py-4">
       <div className="container mx-auto text-center">
         <h1 className="text-2xl font-bold">Spur Fit</h1>
         <nav className="mt-2">
