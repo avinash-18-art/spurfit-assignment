@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header bg-gray-800 text-white py-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-2xl font-bold">Spur Fit</h1>
+        <h1 className="text-2xl font-bold">Animation Website</h1>
         <nav className="mt-2">
           <a href="#" className="mx-2 hover:underline">
             Home
